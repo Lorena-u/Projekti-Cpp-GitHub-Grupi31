@@ -1,0 +1,3 @@
+/Users/m/Documents/GitHub/Projekti-Cpp-GitHub/cmake-build-debug/CMakeFiles/Projekti_Cpp_GitHub.dir
+/Users/m/Documents/GitHub/Projekti-Cpp-GitHub/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/m/Documents/GitHub/Projekti-Cpp-GitHub/cmake-build-debug/CMakeFiles/rebuild_cache.dir
