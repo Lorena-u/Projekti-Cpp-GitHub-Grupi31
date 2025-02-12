@@ -23,5 +23,5 @@ void printGreeting() {
     cout << "Miresevini ne lojen 'Gjeje numrin'!" << endl;
 cout << "Kompjuteri ka menduar nje numer ndermjet 1 dhe 100." << endl;
 cout << "Perpiqu te gjesh kete numer brenda 10 mundesive!" << endl;
-cout<< "Per cdo mundesi, kompjuteri do te te thote nese numri yt eshte me i madh. << endl;
-    }
+cout << "Per cdo mundesi, kompjuteri do te te thote nese numri yt eshte me i madh." << endl;
+}
