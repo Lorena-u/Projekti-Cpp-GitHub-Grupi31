@@ -25,3 +25,10 @@ cout << "Kompjuteri ka menduar nje numer ndermjet 1 dhe 100." << endl;
 cout << "Perpiqu te gjesh kete numer brenda 10 mundesive!" << endl;
 cout << "Per cdo mundesi, kompjuteri do te te thote nese numri yt eshte me i madh." << endl;
 }
+int generateRandomNumber (int lower, int upper) { 
+    // Përdorim srand() dhe time(0) për të krijuar numra të ndryshëm cdo herë
+    srand(time(0));
+
+// Krijo një numër të rastësishëm ndërmjet "lower" dhe "upper" 
+return rand() % (upper - lower + 1) + lower;
+} 
