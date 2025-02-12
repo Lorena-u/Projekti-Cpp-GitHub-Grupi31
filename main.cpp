@@ -32,3 +32,22 @@ int generateRandomNumber (int lower, int upper) {
 // Krijo një numër të rastësishëm ndërmjet "lower" dhe "upper" 
 return rand() % (upper - lower + 1) + lower;
 } 
+void startGame(int secretNumber){
+    int guess;
+    int attempts = 0;
+//Lejo perdoruesin te beje deri ne 10 perpjekje per te gjetur numrin
+while (attempts < 10) {
+cout <<"Futni nje numer (perpjekja" << attempts + 1 <<" nga 10): ";
+cin >> guess;
+
+if (isGuessCorrect(guess, secretNumber)) {
+cout <<"Bravo! Keni gjetur numrin!"<<endl;
+return; //Mbaron lojen nese eshte gjetur numri
+} else if (guess < secretNumber) {
+cout << "Numri qe kerkoni eshte me i madh se ky!" <<endl;
+} else {
+cout << "Numri qe kerkoni eshte me i vogel se ky!"<< endl;
+}
+attempts++;
+}
+
