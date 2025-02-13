@@ -1,9 +1,61 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.11">
   <diagram name="Page-1" id="0MCJ7issqk8i5eqLYhM-">
-    <mxGraphModel>
+    <mxGraphModel dx="1060" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#f9d2d2, #121212)" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gpDbG4-Btsv-4Js_fJ6e-29" value="Fillimi&amp;nbsp;&lt;div&gt;(Krijimi i idese grupore)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gpDbG4-Btsv-4Js_fJ6e-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gpDbG4-Btsv-4Js_fJ6e-30" target="gpDbG4-Btsv-4Js_fJ6e-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gpDbG4-Btsv-4Js_fJ6e-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gpDbG4-Btsv-4Js_fJ6e-30" target="gpDbG4-Btsv-4Js_fJ6e-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="25" />
+              <mxPoint x="290" y="25" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gpDbG4-Btsv-4Js_fJ6e-30" value="main ()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="160" y="5" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="gpDbG4-Btsv-4Js_fJ6e-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gpDbG4-Btsv-4Js_fJ6e-31" target="gpDbG4-Btsv-4Js_fJ6e-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gpDbG4-Btsv-4Js_fJ6e-31" value="printGreeting()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gpDbG4-Btsv-4Js_fJ6e-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gpDbG4-Btsv-4Js_fJ6e-35" target="gpDbG4-Btsv-4Js_fJ6e-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gpDbG4-Btsv-4Js_fJ6e-35" value="startGame ()" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="155" y="160" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gpDbG4-Btsv-4Js_fJ6e-37" value="isGuessCorrect()" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="155" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gpDbG4-Btsv-4Js_fJ6e-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="26.939999999999998" as="sourcePoint" />
+            <mxPoint x="160" y="26.939999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gpDbG4-Btsv-4Js_fJ6e-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gpDbG4-Btsv-4Js_fJ6e-40" target="gpDbG4-Btsv-4Js_fJ6e-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="435" y="60" />
+              <mxPoint x="435" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gpDbG4-Btsv-4Js_fJ6e-40" value="generateRabdomNumber()" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="350" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gpDbG4-Btsv-4Js_fJ6e-42" value="int secretNumber" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="360" y="80" width="150" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
